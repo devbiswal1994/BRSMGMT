@@ -4,6 +4,15 @@ public class Train {
 	
 	private int trainNo;
 	private String trainName;
+	private String trainDestination;
+	
+	
+	public String getTrainDestination() {
+		return trainDestination;
+	}
+	public void setTrainDestination(String trainDestination) {
+		this.trainDestination = trainDestination;
+	}
 	public int getTrainNo() {
 		return trainNo;
 	}
